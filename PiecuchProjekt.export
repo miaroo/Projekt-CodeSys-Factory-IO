@@ -2021,7 +2021,7 @@
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
           <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637559173639229814</Single>
+        <Single Name="Timestamp" Type="long">637560024460370911</Single>
       </Single>
       <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
         <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
@@ -3066,7 +3066,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">387</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">// If at middle, set to false both conveyros and turn</Single>
+                <Single Name="Text" Type="string">// Rising trigger, If at middle, set to false both conveyros and turn</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">403</Single>
@@ -3441,7 +3441,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">500</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">OPC.oQALightConv1 := QALightConv1;</Single>
+                <Single Name="Text" Type="string">OPC.oQALightConv1 := QALightConv1 AND ( NOT OPC.iAtWeightConvEntry OR NOT QABusy);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">518</Single>
@@ -3482,6 +3482,11 @@
                 <Single Name="Id" Type="long">513</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	QALightConv1 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">586</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QABusy := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">503</Single>
@@ -3526,7 +3531,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">520</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	QAArray[1,1] := 1;</Single>
+                <Single Name="Text" Type="string">	QAArray[QABoxNumber, QAMaterialNumber] := 4 ;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">521</Single>
@@ -3594,9 +3599,214 @@
                 <Single Name="Text" Type="string">END_IF;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">539</Single>
+                <Single Name="Id" Type="long">557</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">556</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Checnking when wrong matterial entered the yeet position</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">555</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">R_Pusher1(CLK := OPC.iAtPusher);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">572</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">R_Pusher2(CLK := OPC.iVisionSensor1); </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">558</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">R_Pusher3(CLK := OPC.iVisionSensor2); </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">579</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">547</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Logic when should pusheers work,</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">581</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF R_Pusher1.Q AND QAArray[QABoxNumber, QAMaterialNumber] = 4 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">582</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push1 := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">590</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QALightConv234 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">584</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF OPC.iPusher1Front THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">585</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push1 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">583</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">580</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// same as above</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">559</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF R_Pusher2.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">560</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push2 := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">589</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QALightConv234 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">567</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF OPC.iPusher2Front THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">569</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push2 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">561</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">574</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// same as above</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">575</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF R_Pusher3.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">576</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push3 := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">588</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QALightConv234 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">577</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF OPC.iPusher3Front THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">578</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push3 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">573</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">598</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">594</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Falling trigger which tells us when material leaves conv</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">592</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">F_QALightConvExit(CLK := OPC.iAtQALightConvExit);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">600</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">599</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// when material leaves conv we would like to stop convs</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">595</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF F_QALightConvExit.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">596</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QALightConv234 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">597</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">601</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">566</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Assigment pushers logic to variables declared earlier</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">548</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">OPC.oPusher3 := Push3;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">549</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">OPC.oPusher2 := Push2;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">550</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">OPC.oPusher1 := Push1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">602</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">539</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Multiple assigment to control all light conveyors in QA</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">529</Single>
@@ -3604,14 +3814,24 @@
                 <Single Name="Text" Type="string">OPC.oQALightConv4 := OPC.oQALightConv3 := OPC.oQALightConv2 := QALightConv234;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">497</Single>
+                <Single Name="Id" Type="long">606</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">491</Single>
+                <Single Name="Id" Type="long">546</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"></Single>
+                <Single Name="Text" Type="string">IF F_Turntable1ExitNormal.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">607</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FirstWarehouseConv1 := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">608</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">490</Single>
@@ -3621,7 +3841,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">489</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"></Single>
+                <Single Name="Text" Type="string">OPC.oFirstWarehouseConv1 := FirstWarehouseConv1 OR OPC.iAtTurntable1ExitNormal;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">463</Single>
@@ -3662,7 +3882,22 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">525</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	QAArray : ARRAY[0..100, 0..2] OF INT;</Single>
+                <Single Name="Text" Type="string">	QAArray : ARRAY[0..99, 0..2] OF INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">551</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QABoxNumber : INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">587</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QABusy : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">552</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	QAMaterialNumber : INT;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">319</Single>
@@ -3700,6 +3935,31 @@
                 <Single Name="Text" Type="string">	QALightConv234 : BOOL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">593</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	F_QALightConvExit : F_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">609</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FirstWarehouseConv1 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">562</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push1 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">563</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push2 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">564</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Push3 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">241</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	Counter1 : CTUD;</Single>
@@ -3718,6 +3978,21 @@
                 <Single Name="Id" Type="long">528</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	F_WeightConvExit : F_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">553</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	R_Pusher1 : R_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">570</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	R_Pusher2 : R_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">571</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	R_Pusher3 : R_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">365</Single>
@@ -3773,6 +4048,11 @@
                 <Single Name="Id" Type="long">439</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	F_QAEntry : F_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">544</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	F_QALightConvExit : F_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">425</Single>
@@ -3947,7 +4227,7 @@
             </Array>
           </Single>
         </Single>
-        <Single Name="UniqueIdGenerator" Type="string">539</Single>
+        <Single Name="UniqueIdGenerator" Type="string">609</Single>
         <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
         <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
         <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
