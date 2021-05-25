@@ -28,10 +28,10 @@
         </Dictionary>
         <Single Name="TypeGuid" Type="System.Guid">225bfe47-7336-4dbc-9419-4105a7c831fa</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">637574600866674535</Single>
+        <Single Name="Timestamp" Type="long">637575634260199930</Single>
       </Single>
       <Single Name="Object" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
-        <Single Name="UniqueIdGenerator" Type="string">4114</Single>
+        <Single Name="UniqueIdGenerator" Type="string">4123</Single>
         <Null Name="TypeList" />
         <Single Name="NeedsBusCycle" Type="bool">False</Single>
         <Single Name="Id" Type="{05ee0b98-6639-4276-bc32-b75578b819ef}" Method="IArchivable">
@@ -102,7 +102,7 @@
                 <Single Name="BusCycleTask" Type="string"></Single>
                 <Single Name="IoApp" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
                 <Single Name="IoAppSet" Type="bool">False</Single>
-                <Array Name="PositionIds" Type="long">DRAAAAAAAAAOEAAAAAAAAA8QAAAAAAAA</Array>
+                <Array Name="PositionIds" Type="long">FhAAAAAAAAAXEAAAAAAAABgQAAAAAAAA</Array>
                 <Single Name="UseSlowestTask" Type="bool">False</Single>
                 <Single Name="NeedsBusCycleBeforeRead" Type="bool">False</Single>
                 <Single Name="GenerateForceVariables" Type="bool">False</Single>
@@ -186,7 +186,7 @@
                 <Single Name="BusCycleTask" Type="string"></Single>
                 <Single Name="IoApp" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
                 <Single Name="IoAppSet" Type="bool">False</Single>
-                <Array Name="PositionIds" Type="long">EBAAAAAAAAAREAAAAAAAABIQAAAAAAAA</Array>
+                <Array Name="PositionIds" Type="long">GRAAAAAAAAAaEAAAAAAAABsQAAAAAAAA</Array>
                 <Single Name="UseSlowestTask" Type="bool">False</Single>
                 <Single Name="NeedsBusCycleBeforeRead" Type="bool">False</Single>
                 <Single Name="GenerateForceVariables" Type="bool">False</Single>
@@ -320,7 +320,7 @@
           <Single Name="BusCycleTask" Type="string"></Single>
           <Single Name="IoApp" Type="System.Guid">6d24ed41-fbc0-4171-84ff-4eca51b24824</Single>
           <Single Name="IoAppSet" Type="bool">True</Single>
-          <Array Name="PositionIds" Type="long">ChAAAAAAAAALEAAAAAAAAAwQAAAAAAAA</Array>
+          <Array Name="PositionIds" Type="long">ExAAAAAAAAAUEAAAAAAAABUQAAAAAAAA</Array>
           <Single Name="UseSlowestTask" Type="bool">False</Single>
           <Single Name="NeedsBusCycleBeforeRead" Type="bool">False</Single>
           <Single Name="GenerateForceVariables" Type="bool">False</Single>
@@ -403,7 +403,7 @@
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">639b491f-5557-464c-af91-1471bac9f549</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">637574600619267648</Single>
+        <Single Name="Timestamp" Type="long">637575634260728525</Single>
       </Single>
       <Single Name="Object" Type="{639b491f-5557-464c-af91-1471bac9f549}" Method="IArchivable">
         <Single Name="DynamicMemory" Type="int">-1</Single>
@@ -449,7 +449,7 @@
         <Array Name="EmbeddedTypeGuids" Type="System.Guid">
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637570548836796973</Single>
+        <Single Name="Timestamp" Type="long">637575548688186111</Single>
       </Single>
       <Single Name="Object" Type="{ffbfa93a-b94d-45fc-a329-229860183b1d}" Method="IArchivable">
         <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
@@ -469,6 +469,11 @@
                 <Single Name="Id" Type="long">5</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	Warehouse2Array : ARRAY[1..54,0..1] OF INT ;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	PalletizerArray : ARRAY[0..12] OF BOOL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">1</Single>
@@ -583,7 +588,7 @@
         <Array Name="EmbeddedTypeGuids" Type="System.Guid">
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637574873875642495</Single>
+        <Single Name="Timestamp" Type="long">637575396303970078</Single>
       </Single>
       <Single Name="Object" Type="{ffbfa93a-b94d-45fc-a329-229860183b1d}" Method="IArchivable">
         <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
@@ -1455,6 +1460,11 @@
                 <Single Name="Text" Type="string">	iAtSecondWarehouseCurveConv3Entry : BOOL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">289</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	iAtSecondWarehouseConv5 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">195</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	iBigBox : BOOL;</Single>
@@ -2013,7 +2023,7 @@
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">adb5cb65-8e1d-4a00-b70a-375ea27582f3</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">637574602954723259</Single>
+        <Single Name="Timestamp" Type="long">637575634270215820</Single>
       </Single>
       <Single Name="Object" Type="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" Method="IArchivable">
         <List Name="Items" Type="System.Collections.ArrayList">
@@ -2046,12 +2056,26 @@
             <Single Name="LinkAllContent" Type="bool">False</Single>
           </Single>
           <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+            <Single Name="DefaultResolution" Type="string">IecVarAccess, 3.3.1.20 (System)</Single>
+            <Single Name="Optional" Type="bool">False</Single>
+            <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+            <Single Name="PlaceholderName" Type="string">IecVarAccess</Single>
+            <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+            <Single Name="Id" Type="long">854974382</Single>
+            <Single Name="Namespace" Type="string">IecVarAccessLibrary</Single>
+            <Single Name="SystemLibrary" Type="bool">True</Single>
+            <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+            <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+            <Single Name="QualifiedOnly" Type="bool">False</Single>
+            <Single Name="LinkAllContent" Type="bool">False</Single>
+          </Single>
+          <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
             <Single Name="DefaultResolution" Type="string">IoStandard, 3.5.16.0 (System)</Single>
             <Single Name="Optional" Type="bool">False</Single>
             <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
             <Single Name="PlaceholderName" Type="string">IoStandard</Single>
             <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
-            <Single Name="Id" Type="long">2574814469</Single>
+            <Single Name="Id" Type="long">2085756572</Single>
             <Single Name="Namespace" Type="string">IoStandard</Single>
             <Single Name="SystemLibrary" Type="bool">True</Single>
             <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
@@ -2065,7 +2089,7 @@
             <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
             <Single Name="PlaceholderName" Type="string">3SLicense</Single>
             <Single Name="ResolverGuid" Type="System.Guid">97c3b452-d9fa-4ac2-9d0c-3d420aa6d95b</Single>
-            <Single Name="Id" Type="long">997647045</Single>
+            <Single Name="Id" Type="long">382442745</Single>
             <Single Name="Namespace" Type="string">_3S_LICENSE</Single>
             <Single Name="SystemLibrary" Type="bool">True</Single>
             <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
@@ -2079,22 +2103,8 @@
             <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
             <Single Name="PlaceholderName" Type="string">CAA Device Diagnosis</Single>
             <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
-            <Single Name="Id" Type="long">2692405910</Single>
+            <Single Name="Id" Type="long">1571846411</Single>
             <Single Name="Namespace" Type="string">DED</Single>
-            <Single Name="SystemLibrary" Type="bool">True</Single>
-            <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
-            <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
-            <Single Name="QualifiedOnly" Type="bool">False</Single>
-            <Single Name="LinkAllContent" Type="bool">False</Single>
-          </Single>
-          <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
-            <Single Name="DefaultResolution" Type="string">IecVarAccess, 3.3.1.20 (System)</Single>
-            <Single Name="Optional" Type="bool">False</Single>
-            <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
-            <Single Name="PlaceholderName" Type="string">IecVarAccess</Single>
-            <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
-            <Single Name="Id" Type="long">854974382</Single>
-            <Single Name="Namespace" Type="string">IecVarAccessLibrary</Single>
             <Single Name="SystemLibrary" Type="bool">True</Single>
             <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
             <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
@@ -2124,7 +2134,7 @@
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
           <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637574744845411435</Single>
+        <Single Name="Timestamp" Type="long">637575676277327440</Single>
       </Single>
       <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
         <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
@@ -2140,6 +2150,16 @@
                 <Single Name="Id" Type="long">183</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	CraneTargetPosition  := 100;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">326</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">327</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingX := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">182</Single>
@@ -2167,6 +2187,16 @@
                 <Single Name="Text" Type="string">	Pic := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">328</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">329</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingX := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">51</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">ELSIF Place AND NOT Pick AND NOT Working AND ProbablyReady.Q THEN</Single>
@@ -2187,6 +2217,16 @@
                 <Single Name="Text" Type="string">	Pla := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">330</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">331</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingX := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">55</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">ELSIF Swap AND NOT Place AND NOT Pick AND NOT Working AND ProbablyReady.Q  THEN</Single>
@@ -2205,6 +2245,16 @@
                 <Single Name="Id" Type="long">194</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	Counter := 13;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">332</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">333</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MovingX := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">192</Single>
@@ -2335,6 +2385,16 @@
                 <Single Name="Id" Type="long">324</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		Swa := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">334</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">335</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		MovingX := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">70</Single>
@@ -2522,6 +2582,11 @@
                 <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">336</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MovingX := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">282</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			Counter := 7;</Single>
@@ -2535,6 +2600,11 @@
                 <Single Name="Id" Type="long">301</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">337</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MovingX := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">302</Single>
@@ -2607,6 +2677,11 @@
                 <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">338</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MovingX := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">312</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			IF Pick THEN</Single>
@@ -2650,6 +2725,11 @@
                 <Single Name="Id" Type="long">298</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">339</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MovingX := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">299</Single>
@@ -2865,7 +2945,7 @@
             </Array>
           </Single>
         </Single>
-        <Single Name="UniqueIdGenerator" Type="string">325</Single>
+        <Single Name="UniqueIdGenerator" Type="string">339</Single>
         <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
         <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
         <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
@@ -3913,7 +3993,7 @@
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
           <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637574055489129562</Single>
+        <Single Name="Timestamp" Type="long">637575652067420781</Single>
       </Single>
       <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
         <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
@@ -3931,6 +4011,11 @@
                 <Single Name="Text" Type="string">	PalletizerStart := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">362</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	SwitchCase := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">54</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">ELSIF NOT iPalletizerStop THEN</Single>
@@ -3941,39 +4026,84 @@
                 <Single Name="Text" Type="string">	PalletizerStart := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">361</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	SwitchCase := 0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">53</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">56</Single>
+                <Single Name="Id" Type="long">480</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">IF PalletizerStart THEN</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">141</Single>
+                <Single Name="Id" Type="long">481</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string">GVL.PalletizerArray[9] := NOT PalletizerElevator; //  oPalletizerSupplyConv</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">482</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL.PalletizerArray[10] := NOT PalletizerElevator; //  oPalletizerConv</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">517</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL.PalletizerArray[11] := NOT PalletizerElevator;; //  oPalletizer1ChainForward</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">519</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">293</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ElevatorUp := Round(First := iElevator1CurrentPoint) = 4.65;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">290</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ElevatorDown := Round(First := iElevator1CurrentPoint) = 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">446</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">295</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">F_AlmostWarehouse(CLK := iAtElevatorExit);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">56</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">131</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	F_PalletizerChain(CLK := iAtPalletizerChainEntry);</Single>
+                <Single Name="Text" Type="string">F_PalletizerChain(CLK := iAtPalletizerChainEntry);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">138</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF F_PalletizerChain.Q THEN</Single>
+                <Single Name="Text" Type="string">IF F_PalletizerChain.Q THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">139</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		InElevator := TRUE;</Single>
+                <Single Name="Text" Type="string">	InElevator := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">140</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">149</Single>
@@ -3983,22 +4113,22 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">159</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	F_MovingPalletizerElevator(CLK :=iPalletizer1ElevatorMoving);</Single>
+                <Single Name="Text" Type="string">F_MovingPalletizerElevator(CLK :=iPalletizer1ElevatorMoving);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">160</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF F_MovingPalletizerElevator.Q THEN</Single>
+                <Single Name="Text" Type="string">IF F_MovingPalletizerElevator.Q THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">161</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		MovingZ := TRUE;</Single>
+                <Single Name="Text" Type="string">	MovingZ := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">162</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">158</Single>
@@ -4008,722 +4138,872 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">146</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF InElevator AND iPalletizer1ElevatorBack AND iPalletizer1ElevatorFront THEN</Single>
+                <Single Name="Text" Type="string">IF InElevator AND iPalletizer1ElevatorBack AND iPalletizer1ElevatorFront THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">147</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		PalletizerElevator := TRUE;</Single>
+                <Single Name="Text" Type="string">	PalletizerElevator := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">153</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		InElevator := FALSE;</Single>
+                <Single Name="Text" Type="string">	InElevator := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">148</Single>
+                <Single Name="Id" Type="long">445</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">452</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">151</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string">////</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">154</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF PalletizerElevator THEN</Single>
+                <Single Name="Text" Type="string">IF PalletizerElevator AND NOT PalleteReady THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">155</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1ElevatorMoveToMax := TRUE;</Single>
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[6] := 1; //  oPalletizer1ElevatorMoveToMax</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">164</Single>
+                <Single Name="Id" Type="long">453</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1ElevatorUp := TRUE;</Single>
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[7] := 1; //  oPalletizer1ElevatorUp</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">166</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF MovingZ THEN</Single>
+                <Single Name="Text" Type="string">	IF MovingZ THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">454</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[6] := 0; //  oPalletizer1ElevatorMoveToMax</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">455</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[7] := 0; //  oPalletizer1ElevatorUp</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">167</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
+                <Single Name="Text" Type="string">		MovingZ := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">170</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			PalleteReady := TRUE;</Single>
+                <Single Name="Text" Type="string">		PalleteReady := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">168</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		END_IF</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">156</Single>
-                <Null Name="Tag" />
                 <Single Name="Text" Type="string">	END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">150</Single>
+                <Single Name="Id" Type="long">444</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">133</Single>
+                <Single Name="Id" Type="long">305</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	//oPalletizerConv := NOT InElevator OR NOT iAtPalletizerChainEntry;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">134</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	//oPalletizerSupplyConv := NOT iAtPalletizerConvEntry OR NOT InElevator;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">142</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	//oPalletizer1ChainForward := NOT PalletizerElevator;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">132</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">83</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oPalletizer1Forward := NOT Timer.Q;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">57</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	LightConv := NOT Working OR NOT iAtPalletizerEntry;</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">61</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	F_EntryLightConv(CLK := iAtPalletizerEntry);</Single>
+                <Single Name="Text" Type="string">F_EntryLightConv(CLK := iAtPalletizerEntry);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">62</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF F_EntryLightConv.Q AND Direction THEN</Single>
+                <Single Name="Text" Type="string">IF F_EntryLightConv.Q AND Direction THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">65</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ThreeOnTwo := ThreeOnTwo + 1;</Single>
+                <Single Name="Text" Type="string">	ThreeOnTwo := ThreeOnTwo + 1;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">71</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ELSIF F_EntryLightConv.Q AND NOT Direction THEN</Single>
+                <Single Name="Text" Type="string">ELSIF F_EntryLightConv.Q AND NOT Direction THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">63</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		TwoOnThree := TwoOnThree + 1;</Single>
+                <Single Name="Text" Type="string">	TwoOnThree := TwoOnThree + 1;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">64</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">72</Single>
+                <Single Name="Id" Type="long">310</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF TwoOnThree = 2 OR ThreeOnTwo = 3 THEN</Single>
+                <Single Name="Text" Type="string">	</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">75</Single>
+                <Single Name="Id" Type="long">326</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Working := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">76</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">NotiPalletizer1Pushing := NOT iPalletizer1Pushing;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">82</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Timer(IN := Working, PT := T#1500MS);</Single>
+                <Single Name="Text" Type="string">F_Push(CLK := NotiPalletizer1Pushing);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">78</Single>
+                <Single Name="Id" Type="long">312</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF Timer.Q AND NOT Busy AND PalleteReady THEN</Single>
+                <Single Name="Text" Type="string">IF F_Push.Q THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">79</Single>
+                <Single Name="Id" Type="long">313</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1Push := TRUE;</Single>
+                <Single Name="Text" Type="string">	Pushed := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">85</Single>
+                <Single Name="Id" Type="long">314</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Push := TRUE;</Single>
+                <Single Name="Text" Type="string">END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">91</Single>
+                <Single Name="Id" Type="long">531</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF NOT iPalletizer1Pushing THEN</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">92</Single>
+                <Single Name="Id" Type="long">532</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			IsPushed := TRUE;</Single>
+                <Single Name="Text" Type="string">TimeUp(IN := SwitchCase = 5, PT := T#2000MS);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">93</Single>
+                <Single Name="Id" Type="long">333</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		END_IF</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">89</Single>
+                <Single Name="Id" Type="long">336</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		</Single>
+                <Single Name="Text" Type="string">CASE SwitchCase OF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">80</Single>
+                <Single Name="Id" Type="long">340</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">	0: // Shutdown</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">86</Single>
+                <Single Name="Id" Type="long">457</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF Push AND IsPushed AND iPalletizer1Pushing THEN</Single>
+                <Single Name="Text" Type="string">	(*</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">209</Single>
+                <Single Name="Id" Type="long">355</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Busy := TRUE;</Single>
+                <Single Name="Text" Type="string">		IF NOT ShutDown THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">94</Single>
+                <Single Name="Id" Type="long">348</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1Push := FALSE;</Single>
+                <Single Name="Text" Type="string">			SetArrayToZero();</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">96</Single>
+                <Single Name="Id" Type="long">360</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Back := TRUE;</Single>
+                <Single Name="Text" Type="string">			ShutDown := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">98</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IsPushed := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">109</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Push := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">101</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF NOT iPalletizer1Pushing THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">102</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			IsBack := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">100</Single>
+                <Single Name="Id" Type="long">359</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">88</Single>
+                <Single Name="Id" Type="long">458</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">	*)</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">103</Single>
+                <Single Name="Id" Type="long">342</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF Back AND IsBack AND iPalletizer1Pushing THEN</Single>
+                <Single Name="Text" Type="string">	1: // Normal working</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">104</Single>
+                <Single Name="Id" Type="long">447</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Back := FALSE;</Single>
+                <Single Name="Text" Type="string">		ShutDown := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">106</Single>
+                <Single Name="Id" Type="long">349</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IsBack := FALSE;</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[0] := NOT (TwoOnThree = 2 OR ThreeOnTwo = 3) OR NOT iAtPalletizerEntry; // oPalletizerSupplyLightConv</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">107</Single>
+                <Single Name="Id" Type="long">363</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Working := FALSE;</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[1] := NOT (TwoOnThree = 2 OR ThreeOnTwo = 3) OR NOT iAtPalletizerEntry; // oPalletizer1Forward</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">110</Single>
+                <Single Name="Id" Type="long">364</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF Direction THEN</Single>
+                <Single Name="Text" Type="string">		IF (TwoOnThree = 2 OR ThreeOnTwo = 3) AND iAtPalletizerEntry AND iPalletizer1Opening AND NOT oPalletizer1Open THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">113</Single>
+                <Single Name="Id" Type="long">367</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			ThreeRounds := ThreeRounds + 1;</Single>
+                <Single Name="Text" Type="string">			SwitchCase := 2;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">118</Single>
+                <Single Name="Id" Type="long">388</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			TwoOnThree := 0;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">115</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ELSIF NOT Direction THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">116</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			TwoRounds := TwoRounds + 1;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">119</Single>
+                <Single Name="Id" Type="long">389</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			ThreeOnTwo := 0;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">114</Single>
+                <Single Name="Id" Type="long">366</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">105</Single>
+                <Single Name="Id" Type="long">343</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">	2: // Push</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">125</Single>
+                <Single Name="Id" Type="long">372</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF ThreeRounds = 3 OR TwoRounds = 2 THEN</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[0] := 0; // oPalletizerSupplyLightConv</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">126</Single>
+                <Single Name="Id" Type="long">373</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Direction := NOT Direction;</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[1] := 0; // oPalletizer1Forward</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">127</Single>
+                <Single Name="Id" Type="long">368</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ThreeRounds := 0;</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[2] := 1; // oPalletizer1Push</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">128</Single>
+                <Single Name="Id" Type="long">350</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		TwoRounds := 0;</Single>
+                <Single Name="Text" Type="string">		IF Pushed AND iPalletizer1Pushing THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">129</Single>
+                <Single Name="Id" Type="long">369</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Clamp := TRUE;</Single>
+                <Single Name="Text" Type="string">			Pushed := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">124</Single>
+                <Single Name="Id" Type="long">371</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">			SwitchCase := 3;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">171</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">172</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF Clamp THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">175</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1Open := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">173</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1Clamp := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">176</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF iPalletizer1Clamped THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">177</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			Clamping := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">180</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			Clamp := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">195</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			MovingX := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">178</Single>
+                <Single Name="Id" Type="long">370</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">174</Single>
+                <Single Name="Id" Type="long">344</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">	3: // Back</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">181</Single>
+                <Single Name="Id" Type="long">374</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[2] := 0; // oPalletizer1Push</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">187</Single>
+                <Single Name="Id" Type="long">377</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	R_Open(CLK := iPalletizer1Opening);</Single>
+                <Single Name="Text" Type="string">		IF Pushed AND iPalletizer1Pushing THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">188</Single>
+                <Single Name="Id" Type="long">378</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF R_Open.Q THEN</Single>
+                <Single Name="Text" Type="string">			Pushed := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">189</Single>
+                <Single Name="Id" Type="long">527</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		MovingX := TRUE;</Single>
+                <Single Name="Text" Type="string">			IF NOT Direction THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">190</Single>
+                <Single Name="Id" Type="long">528</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">					ThreeRounds := ThreeRounds + 1;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">186</Single>
+                <Single Name="Id" Type="long">529</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string">			ELSIF Direction THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">182</Single>
+                <Single Name="Id" Type="long">530</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF Clamping THEN</Single>
+                <Single Name="Text" Type="string">					TwoRounds := TwoRounds + 1;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">183</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1Open := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">192</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF MovingX  THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">193</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			MovingX := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">196</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			MoveDown  := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">199</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			Clamping := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">194</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		END_IF</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">184</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">213</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">200</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Layers(Cu := MoveDown, PV := 3);</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">201</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF MoveDown THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">202</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1ElevatorDown := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">204</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF MovingZ THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">205</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">207</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			MoveDown := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">211</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			oPalletizer1Open := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">222</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			Busy := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">214</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			IF Layers.Q THEN</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">215</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">				Layers.RESET := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">220</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">				VeryDown := TRUE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">221</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">				oPalletizer1ElevatorDown := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">223</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">				PalleteReady := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">217</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">			ELSE </Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">218</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">				oPalletizer1ElevatorDown := FALSE;	</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">216</Single>
+                <Single Name="Id" Type="long">526</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">206</Single>
+                <Single Name="Id" Type="long">381</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ThreeRounds = 3 OR TwoRounds = 2 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">382</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				Direction := NOT Direction;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">383</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				ThreeRounds := 0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">384</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				TwoRounds := 0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">387</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				SwitchCase := 4;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">390</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			ELSE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">391</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				SwitchCase := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">379</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">351</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">203</Single>
+                <Single Name="Id" Type="long">345</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">	4:</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">224</Single>
+                <Single Name="Id" Type="long">398</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[3] := 1; //  oPalletizer1Clamp</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">225</Single>
+                <Single Name="Id" Type="long">352</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF VeryDown THEN</Single>
+                <Single Name="Text" Type="string">		IF iPalletizer1Clamped AND PalleteReady THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">226</Single>
+                <Single Name="Id" Type="long">401</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1ElevatorMoveToMax := TRUE;</Single>
+                <Single Name="Text" Type="string">			SwitchCase := 5;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">229</Single>
+                <Single Name="Id" Type="long">400</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oPalletizer1ElevatorDown := TRUE;</Single>
+                <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">230</Single>
+                <Single Name="Id" Type="long">346</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF MovingZ THEN</Single>
+                <Single Name="Text" Type="string">	5:</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">231</Single>
+                <Single Name="Id" Type="long">402</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			PalletizerElevator := FALSE;</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[4] := 1; //  oPalletizer1Open</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">233</Single>
+                <Single Name="Id" Type="long">403</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF TimeUp.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">408</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[3] := 0; //  oPalletizer1Clamp</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">409</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			SwitchCase := 6;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">405</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">410</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	6:</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">411</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		MoveDown := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">413</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[5] := 1; //  oPalletizer1ElevatorDown</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">414</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF MovingZ AND NOT Layers.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">425</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">235</Single>
+                <Single Name="Id" Type="long">415</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			FullPalletteConv := TRUE;</Single>
+                <Single Name="Text" Type="string">			MoveDown := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">232</Single>
+                <Single Name="Id" Type="long">418</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[5] := 0; //  oPalletizer1ElevatorDown</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">419</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[4] := 0; //  oPalletizer1Open</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">421</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			SwitchCase := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">417</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		ELSIF MovingZ AND Layers.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">430</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[4] := 0; //  oPalletizer1Open</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">520</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			Layers.RESET := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">426</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">459</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MoveDown := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">422</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			SwitchCase := 7;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">416</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">227</Single>
+                <Single Name="Id" Type="long">427</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">	7:</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">238</Single>
+                <Single Name="Id" Type="long">539</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oPalletsTowardElevator := FullPalletteConv AND(NOT iAtElevatorUpEntry OR ElevatorUp);</Single>
+                <Single Name="Text" Type="string">		Layers.RESET := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">240</Single>
+                <Single Name="Id" Type="long">428</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	F_EnterElevator(CLK := iAtElevatorUpEntry);</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[5] := 1; //  oPalletizer1ElevatorDown</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">241</Single>
+                <Single Name="Id" Type="long">429</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF F_EnterElevator.Q THEN</Single>
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[6] := 1; //  oPalletizer1ElevatorMoveToMax</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">242</Single>
+                <Single Name="Id" Type="long">431</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		FullPalletteConv := FALSE;</Single>
+                <Single Name="Text" Type="string">		IF MovingZ THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">257</Single>
+                <Single Name="Id" Type="long">537</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ElvatorGoingUp := FALSE;</Single>
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[5] := 0; //  oPalletizer1ElevatorDown</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">259</Single>
+                <Single Name="Id" Type="long">538</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ElvatorGoingDown := TRUE;</Single>
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[6] := 0; //  oPalletizer1ElevatorMoveToMax</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">260</Single>
+                <Single Name="Id" Type="long">432</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oElevator1SetPoint := 0.0;</Single>
+                <Single Name="Text" Type="string">			PalleteReady := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">262</Single>
+                <Single Name="Id" Type="long">434</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		IF ElevatorDown THEN</Single>
+                <Single Name="Text" Type="string">			PalletizerElevator := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">263</Single>
+                <Single Name="Id" Type="long">435</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">			oElevator1Forward := TRUE;</Single>
+                <Single Name="Text" Type="string">			GVL.PalletizerArray[8] := 1; //  oPalletsTowardElevator</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">264</Single>
+                <Single Name="Id" Type="long">448</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			SwitchCase := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">488</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			MovingZ := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">433</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">		END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">243</Single>
+                <Single Name="Id" Type="long">341</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">END_CASE</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">267</Single>
+                <Single Name="Id" Type="long">442</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	F_AlmostWarehouse(CLK := iAtElevatorExit);</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">269</Single>
+                <Single Name="Id" Type="long">186</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF F_AlmostWarehouse.Q THEN</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">270</Single>
+                <Single Name="Id" Type="long">200</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ElvatorGoingDown := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">272</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ElvatorGoingUp := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">273</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oElevator1Forward := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">271</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	END_IF</Single>
+                <Single Name="Text" Type="string">Layers(Cu := MoveDown, PV := 3);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">268</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	</Single>
+                <Single Name="Text" Type="string"></Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">244</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF iAtElevatorUpEntry AND NOT iAtElevatorEntry THEN</Single>
+                <Single Name="Text" Type="string">IF iAtElevatorUpEntry AND NOT iAtElevatorEntry THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">246</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		oElevator1SetPoint := 4.6;</Single>
+                <Single Name="Text" Type="string">	SetHigh := 4.65;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">255</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		ElvatorGoingUp := TRUE;</Single>
+                <Single Name="Text" Type="string">	ElvatorTakingUp := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">489</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF iAtElevatorEntry AND NOT ElvatorTakingUp THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">490</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	SetHigh := 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">491</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ElvatorTakingDown := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">247</Single>
                 <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">493</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">492</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF ElvatorTakingDown AND ElevatorDown THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">494</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[12] := 1; //  oElevator1Forward</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">495</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">496</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">288</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF ElvatorTakingUp AND ElevatorUp AND NOT Throw THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">501</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	PickUp := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">499</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	SetHigh := 4.65;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">505</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[12] := PickUp ; //  oElevator1Forward</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">500</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF F_RightLimit.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">503</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[8] := 0; //  oPalletsTowardElevator</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">506</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL.PalletizerArray[12] := 0 ; //  oElevator1Forward</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">507</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SetHigh := 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">508</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		PickUp := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">511</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		Throw := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">504</Single>
+                <Null Name="Tag" />
                 <Single Name="Text" Type="string">	END_IF</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">250</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ElevatorUp := oElevator1SetPoint = 4.6;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">261</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ElevatorDown := oElevator1SetPoint = 0.0;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">58</Single>
+                <Single Name="Id" Type="long">498</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">514</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">509</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF Throw AND ElevatorDown THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">515</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[12] := 1; //  oElevator1Forward</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">516</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">298</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">299</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF F_AlmostWarehouse.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">300</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ElvatorTakingDown := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">301</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ElvatorTakingUp := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">302</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[12] := 0 ; //  oElevator1Forward</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">536</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Throw := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">297</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">534</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">486</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">F_RightLimit(CLK:= iElevator1RightLimit);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">535</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">462</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">463</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oElevator1Forward := GVL.PalletizerArray[12] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">465</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oElevator1SetPoint := SetHigh;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">466</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1Open := GVL.PalletizerArray[4] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">467</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1Push := GVL.PalletizerArray[2] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">468</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1Clamp := GVL.PalletizerArray[3] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">469</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1Forward := GVL.PalletizerArray[1] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">471</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1ElevatorUp := GVL.PalletizerArray[7] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">472</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1ChainForward := GVL.PalletizerArray[11] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">473</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1ElevatorDown := GVL.PalletizerArray[5] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">475</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1ElevatorMoveToMax := GVL.PalletizerArray[6] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">476</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizerConv := GVL.PalletizerArray[10] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">477</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizerSupplyConv := GVL.PalletizerArray[9] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">478</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizerSupplyLightConv := GVL.PalletizerArray[0] AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">479</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletsTowardElevator := (GVL.PalletizerArray[8] AND (PickUp OR NOT iAtElevatorUpEntry)) AND PalletizerStart;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">524</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">oPalletizer1Turn := Direction;</Single>
               </Single>
             </Array>
           </Single>
@@ -4922,6 +5202,11 @@
                 <Single Name="Text" Type="string">	oPalletsTowardElevator : BOOL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">525</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	oPalletizer1Turn : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">6</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">END_VAR</Single>
@@ -4932,19 +5217,14 @@
                 <Single Name="Text" Type="string">VAR</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">51</Single>
+                <Single Name="Id" Type="long">487</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	PalletizerStart : BOOL;</Single>
+                <Single Name="Text" Type="string">	SetHigh : REAL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">44</Single>
+                <Single Name="Id" Type="long">449</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	LightConv : BOOL;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">45</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Working : BOOL := FALSE;</Single>
+                <Single Name="Text" Type="string">	PalletizerStart : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">46</Single>
@@ -4952,9 +5232,14 @@
                 <Single Name="Text" Type="string">	R_Pushing : F_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">533</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	F_RightLimit : F_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">47</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Direction : BOOL := 0;</Single>
+                <Single Name="Text" Type="string">	Direction : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">50</Single>
@@ -4982,54 +5267,19 @@
                 <Single Name="Text" Type="string">	TwoRounds : INT := 0;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">81</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Timer : TON;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">84</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Push : BOOL := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">90</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IsPushed : BOOL;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">97</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Back : BOOL := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">99</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IsBack : BOOL;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">130</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Clamp : BOOL;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">135</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	PalletizerElevator : BOOL;</Single>
+                <Single Name="Text" Type="string">	PalletizerElevator : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">136</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	InElevator : BOOL;</Single>
+                <Single Name="Text" Type="string">	InElevator : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">137</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	F_PalletizerChain : F_TRIG;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">143</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ChainForward : BOOL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">157</Single>
@@ -5039,52 +5289,27 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">163</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	MovingZ : BOOL;</Single>
+                <Single Name="Text" Type="string">	MovingZ : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">169</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	PalleteReady : BOOL;</Single>
+                <Single Name="Text" Type="string">	PalleteReady : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">179</Single>
+                <Single Name="Id" Type="long">309</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Clamping : BOOL;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">185</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	R_Open : R_TRIG;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">191</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	MovingX : BOOL;</Single>
+                <Single Name="Text" Type="string">	F_Push : F_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">197</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	MoveDown : BOOL;</Single>
+                <Single Name="Text" Type="string">	MoveDown : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">198</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	Layers : CTU;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">208</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	Busy : BOOL;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">219</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	VeryDown : BOOL := FALSE;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">234</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	FullPalletteConv : BOOL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">239</Single>
@@ -5099,22 +5324,57 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">251</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ElevatorUp : BOOL;</Single>
+                <Single Name="Text" Type="string">	ElevatorUp : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">252</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ElevatorDown : BOOL;</Single>
+                <Single Name="Text" Type="string">	ElevatorDown : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">256</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ElvatorGoingUp : BOOL;</Single>
+                <Single Name="Text" Type="string">	ElvatorTakingUp : BOOL := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">258</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	ElvatorGoingDown : BOOL;</Single>
+                <Single Name="Text" Type="string">	ElvatorTakingDown : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">315</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Pushed : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">325</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	NotiPalletizer1Pushing : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">339</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	SwitchCase : INT := 30;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">356</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ShutDown : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">502</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	PickUp : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">512</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Throw : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">522</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TimeUp : TON;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">8</Single>
@@ -5129,7 +5389,7 @@
             </Array>
           </Single>
         </Single>
-        <Single Name="UniqueIdGenerator" Type="string">273</Single>
+        <Single Name="UniqueIdGenerator" Type="string">539</Single>
         <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
         <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
         <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
@@ -5154,7 +5414,7 @@
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
           <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637574865074946429</Single>
+        <Single Name="Timestamp" Type="long">637575666567323147</Single>
       </Single>
       <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
         <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
@@ -6077,11 +6337,6 @@
                 <Single Name="Text" Type="string">IF MaterialnBox.Q THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
-                <Single Name="Id" Type="long">328</Single>
-                <Null Name="Tag" />
-                <Single Name="Text" Type="string">	MaterialnBox.RESET := MaterialnBox.Q;</Single>
-              </Single>
-              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">330</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	TwoAxis2WorkingPosition := FALSE;</Single>
@@ -6093,6 +6348,11 @@
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">373</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">MaterialnBox.RESET := MaterialnBox.Q;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">846</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string"></Single>
               </Single>
@@ -7444,7 +7704,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">742</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">iElevator1CurrentPoint := OPC.iElevator1CurrentPoint);</Single>
+                <Single Name="Text" Type="string">iElevator1CurrentPoint := OPC.iElevator1CurrentPoint, iAtSecondWarehouseConv5 := OPC.iAtSecondWarehouseConv5);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">741</Single>
@@ -7569,7 +7829,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">764</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">iPalletizer1Pushing := OPC.iPalletizer1Pushing);</Single>
+                <Single Name="Text" Type="string">iPalletizer1Pushing := OPC.iPalletizer1Pushing,iPalletizer1Opening := OPC.iPalletizer1Opening);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">762</Single>
@@ -7662,6 +7922,11 @@
                 <Single Name="Text" Type="string">	OPC.oPalletsTowardElevator  := PalletizerElevator1.oPalletsTowardElevator;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">845</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	OPC.oPalletizer1Turn := PalletizerElevator1.oPalletizer1Turn;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">713</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string"></Single>
@@ -7669,12 +7934,12 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">709</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"> F_ExitElevator(CLK := OPC.iAtElevatorExit);</Single>
+                <Single Name="Text" Type="string"> R_ExitElevator(CLK := OPC.iAtElevatorExit);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">783</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"> IF F_ExitElevator.Q THEN</Single>
+                <Single Name="Text" Type="string"> IF R_ExitElevator.Q THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">784</Single>
@@ -7694,7 +7959,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">788</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"> OPC.oSecondWarehouseConv6 := BeforeWarehouse2Conv;</Single>
+                <Single Name="Text" Type="string"> OPC.oSecondWarehouseLoadConv := OPC.oSecondWarehouseConv6 := BeforeWarehouse2Conv;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">789</Single>
@@ -7704,12 +7969,12 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">791</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"> R_Warehouse2Entry(CLK := OPC.iAtCrane2Entry);</Single>
+                <Single Name="Text" Type="string"> F_Warehouse2Entry(CLK := OPC.iAtCrane2Entry);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">792</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"> IF R_Warehouse2Entry.Q THEN</Single>
+                <Single Name="Text" Type="string"> IF F_Warehouse2Entry.Q THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">793</Single>
@@ -7769,7 +8034,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">810</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF Crane1DesignedLocation  &lt;&gt; 0 THEN</Single>
+                <Single Name="Text" Type="string">	IF Crane2DesignedLocation  &lt;&gt; 0 THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">811</Single>
@@ -7814,7 +8079,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">822</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string"> Crane2(LeftOrRight := TRUE, Swap := Crane2Swap, Place := Crane2Working, Pick := HMI.Pick2, CraneLeftLimit := OPC.iCrane2LeftLimit,</Single>
+                <Single Name="Text" Type="string">Crane2(LeftOrRight := TRUE, Swap := Crane2Swap, Place := Crane2Working, Pick := HMI.Pick2, CraneLeftLimit := OPC.iCrane2LeftLimit,</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">823</Single>
@@ -8325,7 +8590,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">381</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	F_ExitElevator : F_TRIG;</Single>
+                <Single Name="Text" Type="string">	R_ExitElevator : R_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">786</Single>
@@ -8335,7 +8600,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">790</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	R_Warehouse2Entry : R_TRIG;</Single>
+                <Single Name="Text" Type="string">	F_Warehouse2Entry : F_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">796</Single>
@@ -8370,7 +8635,7 @@
             </Array>
           </Single>
         </Single>
-        <Single Name="UniqueIdGenerator" Type="string">843</Single>
+        <Single Name="UniqueIdGenerator" Type="string">846</Single>
         <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
         <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
         <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
@@ -8487,6 +8752,97 @@
     <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
       <Single Name="IsRoot" Type="bool">False</Single>
       <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">2bf51b2c-8952-49fa-89e2-c6f7a43df657</Single>
+        <Single Name="ParentGuid" Type="System.Guid">6d24ed41-fbc0-4171-84ff-4eca51b24824</Single>
+        <Single Name="Name" Type="string">SetArrayToZero</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">637575486839658823</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FOR I := 0 TO 13 BY 1 DO</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">10</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL.PalletizerArray[I] := 0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">11</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_FOR</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">2</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FUNCTION SetArrayToZero : BOOL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">3</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">9</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	I : INT := 0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">11</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">6d24ed41-fbc0-4171-84ff-4eca51b24824</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
         <Single Name="Guid" Type="System.Guid">015d515f-b173-43fe-8495-c88e342c99b6</Single>
         <Single Name="ParentGuid" Type="System.Guid">6d24ed41-fbc0-4171-84ff-4eca51b24824</Single>
         <Single Name="Name" Type="string">ThreeAxis</Single>
@@ -8496,7 +8852,7 @@
           <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
           <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
         </Array>
-        <Single Name="Timestamp" Type="long">637574894072016079</Single>
+        <Single Name="Timestamp" Type="long">637575399514602644</Single>
       </Single>
       <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
         <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
@@ -8731,32 +9087,32 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">286</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oSecondWarehouseConv12 := (Conv12 AND (NOT CanFinish OR NOT iAtLoadEmptyBoxExit));</Single>
+                <Single Name="Text" Type="string">	oSecondWarehouseConv12 := (Conv12 AND (CanFinish OR NOT iAtLoadEmptyBoxExit));</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">318</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oSecondWarehouseConv1 := NOT PalleteOnPlace ;</Single>
+                <Single Name="Text" Type="string">	oSecondWarehouseConv1 := NOT PalleteOnPlace;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">287</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oSecondWarehouseConv2 := ( Conv13 AND (NOT CanFinish OR NOT iAtSecondWarehouseCurveConv3Entry));</Single>
+                <Single Name="Text" Type="string">	oSecondWarehouseConv2 := ( Conv13 AND (CanFinish OR NOT iAtSecondWarehouseCurveConv3Entry));</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">255</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oSecondWarehouseCurveConv3 := Conv14 AND (NOT CanFinish OR NOT iAtSecondWarehouseCurveConv3Exit);</Single>
+                <Single Name="Text" Type="string">	oSecondWarehouseCurveConv3 := Conv14 AND (CanFinish OR NOT iAtSecondWarehouseCurveConv3Exit);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">270</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oSecondWarehouseConv4 := Conv15 AND (NOT CanFinish OR NOT iAtElevatorEntry);</Single>
+                <Single Name="Text" Type="string">	oSecondWarehouseConv4 := Conv15 AND (CanFinish OR NOT iAtSecondWarehouseConv5);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">271</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	oSecondWarehouseConv5 := Conv16 AND (NOT CanFinish OR NOT iAtElevatorEntry);</Single>
+                <Single Name="Text" Type="string">	oSecondWarehouseConv5 := Conv16 AND (CanFinish OR NOT iAtElevatorEntry);</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">223</Single>
@@ -9079,6 +9435,46 @@
                 <Single Name="Text" Type="string">	</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">341</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF iAtSecondWarehouseConv5 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">342</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		Conv16 := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">344</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">335</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	F_LastConv(CLK := iAtSecondWarehouseConv5);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">338</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF F_LastConv.Q THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">345</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		Conv15 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">340</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">336</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">259</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	F_End(CLK := iAtElevatorEntry);</Single>
@@ -9091,7 +9487,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">261</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		Conv15 := FALSE;</Single>
+                <Single Name="Text" Type="string">		Conv16 := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">262</Single>
@@ -9104,14 +9500,24 @@
                 <Single Name="Text" Type="string">	</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">330</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RealE := Round(First := iElevator1CurrentPoint);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">331</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">263</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">	IF iElevator1CurrentPoint &lt;&gt; 0.0 THEN</Single>
+                <Single Name="Text" Type="string">	IF RealE = 0.0 THEN</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">266</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		CanFinish := FALSE;</Single>
+                <Single Name="Text" Type="string">		CanFinish := TRUE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">268</Single>
@@ -9121,7 +9527,7 @@
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">269</Single>
                 <Null Name="Tag" />
-                <Single Name="Text" Type="string">		CanFinish := TRUE;</Single>
+                <Single Name="Text" Type="string">		CanFinish := FALSE;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">267</Single>
@@ -9600,6 +10006,11 @@
                 <Single Name="Text" Type="string">	iElevator1CurrentPoint : REAL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">343</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	iAtSecondWarehouseConv5 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">4</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">END_VAR</Single>
@@ -9780,6 +10191,11 @@
                 <Single Name="Text" Type="string">	F_FirstCurveExit : F_TRIG;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">337</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	F_LastConv : F_TRIG;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">50</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	BoxPlaced : CTU;</Single>
@@ -9865,6 +10281,11 @@
                 <Single Name="Text" Type="string">	RealY : REAL;</Single>
               </Single>
               <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">332</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RealE : REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
                 <Single Name="Id" Type="long">312</Single>
                 <Null Name="Tag" />
                 <Single Name="Text" Type="string">	Finished : BOOL;</Single>
@@ -9892,7 +10313,7 @@
             </Array>
           </Single>
         </Single>
-        <Single Name="UniqueIdGenerator" Type="string">329</Single>
+        <Single Name="UniqueIdGenerator" Type="string">345</Single>
         <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
         <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
         <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
@@ -10512,7 +10933,7 @@
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">21d4fe94-4123-4e23-9091-ead220afbd1f</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">637574878174021038</Single>
+        <Single Name="Timestamp" Type="long">637575396805008110</Single>
       </Single>
       <Single Name="Object" Type="{21d4fe94-4123-4e23-9091-ead220afbd1f}" Method="IArchivable">
         <Single Name="GVLGuid" Type="System.Guid">3d37a3c0-ce57-4fbb-af59-beae56e966ba</Single>
@@ -12057,6 +12478,12 @@
                 <Single Name="MaxVarAccess" Type="int">3</Single>
                 <Single Name="VarType" Type="string">BOOL</Single>
                 <Single Name="VarName" Type="string">oAssemblyReset</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">iAtSecondWarehouseConv5</Single>
               </Single>
             </List2>
             <Single Name="SignGuid" Type="System.Guid">a6404f64-1076-4619-9c88-1bcf8bed85f7</Single>
